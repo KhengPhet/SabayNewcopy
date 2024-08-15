@@ -1,0 +1,32 @@
+.row{
+    width: 80%;
+    height: 700px;
+    /* background-color: aqua; */
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.block1{
+    width: 30%;
+    height: 100%;
+    background: red;
+    background-image: url('https://zandokh.com/image/catalog/banner/2024/collection/2/life-style_1.jpg');
+    background-size: cover;
+    box-shadow: 6px 6px 7px black;   
+}
+.block2{
+    width: 30%;
+    height: 100%;
+    background: rgb(6, 6, 6);
+    background-image: url('https://zandokh.com/image/catalog/banner/2024/collection/2/life-style-men.jpg');
+    background-size: cover;
+    box-shadow: 6px 6px 7px black; 
+}
+.block3{
+    width: 30%;
+    height: 100%;
+    background: rgb(76, 0, 255);
+    background-image: url('https://zandokh.com/image/catalog/banner/2024/collection/2/life-style_1.jpg');
+    background-size: cover;
+    box-shadow: 6px 6px 7px black; 
+}

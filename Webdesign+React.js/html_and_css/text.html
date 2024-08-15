@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            width: 700px;
+            height: 400px;
+            /* background-color: aqua; */
+            display: flex;
+            justify-content: space-between;
+            margin:100px auto;
+        }
+        .right{
+            width: 72.5%;
+            height: 100%;
+            /* background-color: black; */
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+        .top{
+            width: 100%;
+            height: 65.5%;
+            /* background-color: aqua; */
+        }
+        .top-right{
+            width: 100%;
+            height: 100%;
+            background-color: yellow;
+        }
+        .button{
+            width: 100%;
+            height: 31%;
+            /* background-color: rgb(64, 0, 255); */
+            display: flex;
+            justify-content: space-between;
+        }
+        .button-right{
+            width: 48.5%;
+            height: 100%;
+            background-color: orange;
+        }
+        .button-left{
+            width: 48.5%;
+            height: 100%;
+            background-color: rgb(51, 255, 0);
+        }
+        .left{
+            width: 25%;
+            height: 100%;
+            /* background-color: rgb(253, 1, 1); */
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+        .top-left{
+            width: 100%;
+            height: 31%;
+            background: rgb(0, 0, 0);
+        }
+        .center{
+            width: 100%;
+            height: 31%;
+            background: rgb(0, 229, 255);
+        }
+        .btn{
+            width: 100%;
+            height: 31%;
+            background: rgb(255, 0, 225);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="right">
+            <div class="top">
+                <div class="top-right"></div>
+            </div>
+            <div class="button">
+                <div class="button-right"></div>
+                <div class="button-left"></div>
+            </div>
+        </div>
+        <div class="left">
+            <div class="top-left"></div>
+            <div class="center"></div>
+            <div class="btn"></div>
+        </div>
+    </div>
+</body>
+</html>

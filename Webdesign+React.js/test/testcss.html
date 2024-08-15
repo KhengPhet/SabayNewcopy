@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- legend fild -->
+<form action="">
+    <fieldset style="width: 200px;">
+        <legend>personalia</legend>
+        <!-- <label for="">Name :</label> -->
+        Name : <input type="text"><br>
+        <!-- <label for="">emaile:</label> -->
+        emaile: <input type="text"><br>
+        <label for="">date of birth :</label>
+        <input type="text">
+    </fieldset>
+</form>
+
+    <!-- optiongroup -->
+<select>
+    <optgroup  label="swedish cars">
+        <option value="volvo">volvo</option>
+        <option value="saab">saab</option>
+    </optgroup>
+    <optgroup label="German cars">
+        <option value="mercedes">mercedes</option>
+        <option value="audi">audi</option>
+    </optgroup>
+</select>
+
+<!-- time -->
+ <h2>Time fild</h2>
+ <p>the <strong>input type="time"</strong>allows the user to select a time (no time zone)</p>
+ <p>Lorem ipsum dolor sit.: <br> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum fuga voluptatem adipisci! </p>
+ <form action="/action_page_php">
+    select a time:
+    <input type="time" name="user_time" id="">
+    <input type="submit" name="" id="">
+ </form>
+ <p><strong>Note:</strong>type="time" is not supported in safari or internet exlporer 12 and earlier versions.</p>
+
+ <!-- file upload field -->
+  <h2>file ipload</h2>
+  <form action="myform.cgi">
+    <input type="file" name="fileupload" value="fileupload" id="fileupload">
+    <label for="fileupload">select a file to upload</label><br><br>
+    <input type="submit" value="submit" name="" id="">
+  </form>
+
+  <!-- date -->
+   <h2>date field restrictions</h2>
+   <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda, dignissimos.:</p>
+   <form action="/action_page_php">
+    Enter a date befor 1980-01-01: <br>
+    <input type="date" name="bday" max="1979-12-31"  id=""><br><br>
+    Enter a date befor 2024-12-30: <br>
+    <input type="date" name="bday" id="" max="2000-01-31"><br><br>
+    <input type="submit" name="" id="">
+   </form>
+   <p><strong>not:</strong> type="date" is not supported in safari or internet exlporer 11 and earlier versions.</p>
+
+<!-- range -->
+ <h2>the output element</h2>
+ <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, eligendi!</p>
+ <form action="">
+    0 <input type="range" name="a" id="a" value="50"> 100+
+    <input type="number" name="b" id="b" value="50"> =
+    <output name="x" for="a b" ></output><br><br>
+    <input type="submit" name="" id="">
+ </form>
+ <form action="">
+    0 <input type="range" name="a" id="a" value="50"> 100-
+    <input type="number" name="b" id="b" value="50"> =
+    <output name="x" for="a b" ></output><br><br>
+    <input type="submit" name="" id="">
+ </form>
+ <p><strong>Note:</strong>type="time" is not supported in safari or internet exlporer 12 and earlier versions.</p>
+
+ <!-- textarea -->
+  <h2>textarea</h2>
+  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ullam.</p>
+  <form action="">
+    <textarea name="message" id="" rows="3" cols="30">
+        the cat was playing in the garden
+    </textarea><br>
+    <input type="submit">
+  </form>
+
+  <!-- datalist -->
+   <h2>the datalist element</h2>
+   <p>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione necessitatibus officiis hic sapiente labore consequuntur nisi, minus quis deserunt molestiae.
+   </p>
+   <form action="">
+    <input type="text" name="browsers" id="" list="browsers">
+    <datalist id="browseres">
+        <option value="internet exlporer">internet exlporer</option>
+        <option value="firefox">firefox</option>
+        <option value="chrome">chrome</option>
+        <option value="opera">opera</option>
+        <option value="safari">safari</option>
+    </datalist>
+    <input type="submit" name="" id="">
+   </form>
+   <p><strong>Note:</strong>type="time" is not supported in safari or internet exlporer 12 and earlier versions.</p>
+
+<!-- dropdownlist -->
+ <h2>the select element</h2>
+ <p>
+    the select element dafines a drop-downlist :
+ </p>
+ <form action="">
+    <select name="" id="">
+        <option value="">etec center</option>
+        <option value="">rupp</option>
+        <option value="">aupp</option>
+        <option value="">zaman</option>
+    </select><br><br>
+    <input type="submit" name="" id="">
+ </form>
+
+ <!-- selectionlist -->
+  <h2>allows multiple selection </h2>
+  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint, cupiditate.</p>
+  <form action="">
+    <select name="cars" size="4" id="">
+        <option value="">volvo</option>
+        <option value="">saab</option>
+        <option value="">fiat</option>
+        <option value="">audi</option>
+    </select><br><br>
+    <input type="submit">
+  </form>
+  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio ab eaque minus veritatis laborum a!</p>
+
+<!-- radiobutton   -->
+ <h2>gender</h2>
+ <form action="">
+    <input type="radio" name="gender" value="male" >male <br>
+    <input type="radio" name="gender" id="" value="female">female <br>
+    <input type="radio" name="gender" id="" value="other">other <br>
+ </form>
+
+ <!-- checkbox -->
+ <h2>checkbox</h2>
+ <form action="">
+    <input type="checkbox" name="vehicle">male <br>
+    <input type="checkbox" name="vehicle">female <br>
+    <input type="checkbox" name="vehicle">other <br>
+ </form>
+
+ <!-- form -->
+  <h2>html form</h2>
+  <form action="">
+    inpup value a : <br>
+    <input type="text" name="" id="" value="0"><br><br>
+    inpup value b : <br>
+    <input type="text" name="" id="" value="0"><br><br>
+    inpup value c : <br>
+    <input type="text" name="" id="" value="0"><br><br>
+    <input type="submit" value="submit">
+    <input type="reset" value="reset">
+    <input type="button" value="view">
+  </form>
+  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error neque natus obcaecati blanditiis aspernatur eligendi beatae, aliquid dolorum harum hic.</p>
+
+<!-- login form   -->
+ <h2>login form</h2>
+ <form action="">
+    user name: <br>
+    <input type="text"><br>
+    password : <br>
+    <input type="password"><br>
+    confirm password : <br>
+    <input type="password"><br><br>
+    <input type="submit" value="submit">
+    <input type="reset" value="reset">
+ </form>
+ <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorum, earum!</p>
+
+
+ <h2>form html</h2>
+ <form action="">
+    first name: <br>
+    <input type="text"><br>
+    last name: <br>
+    <input type="text"><br><br>
+    <input type="submit" value="submit">
+ </form>
+ <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem neque velit labore perspiciatis, tenetur similique ipsum eius quis sit cumque!</p>
+
+ <!-- table -->
+  <table  border="1">
+    <tr>
+        <th>Name</th>
+        <td>jing</td>
+        <td>net</td>
+        <td>nika</td>
+    </tr>
+    <tr>
+        <th>Address</th>
+        <td>pp</td>
+        <td>kpt</td>
+        <td>kpch</td>
+    </tr>
+    <tr>
+        <th>Salary</th>
+        <td>500</td>
+        <td>600</td>
+        <td>700</td>
+    </tr>
+  </table><br><br>
+
+  <table border="1">
+    <tr>
+        <th>column1</th>
+        <th>column2</th>
+        <th>column3</th>
+    </tr>
+    <tr>
+        <td rowspan="2">row1 cell1</td>
+        <td>row1 cell2</td>
+        <td>row1 cell3</td>
+    </tr>
+    <tr>
+        <td>row2 cell2</td>
+        <td>row2 cell3</td>
+    </tr>
+    <tr>
+        <td colspan="3">row3 cell1</td>
+    </tr>
+  </table><br><br>
+
+  <table border="1">
+    <head>
+        <td  colspan="4">this is the head of the table</td>
+    </head>
+    <tfoot>
+        <td colspan="4">this is the foot of the table</td>
+    </tfoot>
+    <tbody>
+        <td>cell1</td>
+        <td>cell2</td>
+        <td>cell3</td>
+        <td>cell4</td>
+    </tbody>
+  </table><br><br>
+
+  <table border="1">
+    <tr>
+        <th>name</th>
+        <th>Sex</th>
+        <th>salary</th>
+        <th>Address</th>
+
+    </tr>
+    <tr> 
+        <td>net</td>
+        <td>female</td>
+        <td>200</td>
+        <td>pp</td>
+        
+    </tr>
+    <tr>
+        <td>hong</td>
+        <td>male</td>
+        <td>300</td>
+        <td>kpt</td>
+    </tr>
+  </table><br><br>
+
+
+  <table border="1" width="100%">
+    <tr>
+        <td>
+            <table border="1" width="100%">
+                <tr>
+                    <th>Name</th>
+                    <th>Salary</th>
+                </tr>
+                <tr>
+                    <td>jing</td>
+                    <td>700</td>
+                </tr>
+                <tr>
+                    <td>hong</td>
+                    <td>600</td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+  </table><br><br>
+    
+
+  <table border="1" cellpading="5" cellspacing="5">
+    <tr>
+        <th>Name</th>
+        <th>Salary</th>
+    </tr>
+    <tr>
+        <td>jing</td>
+        <td>700</td>
+    </tr>
+    <tr>
+        <td>hong</td>
+        <td>600</td>
+    </tr>
+</table>
+</body>
+</html>

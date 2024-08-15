@@ -1,0 +1,532 @@
+@import url('https://fonts.googleapis.com/css2?family=Koulen&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Battambang:wght@100;300;400;700;900&family=Koulen&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Koulen", sans-serif;
+}
+.container-full{
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+.headersabay{
+    width: 80%;
+    height: 150px;
+    /* background-color: red; */
+    display: flex;
+
+}
+.logo{
+    width: 90px;
+    height: 90px;
+    /* background-color: aliceblue; */
+    margin-top: 25px;
+}
+.logo img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.das{
+    width: 90%;
+    height: 90%;
+    background-color: aqua;
+    margin-top: 10px;
+}
+.das img{
+    width: 100%;
+    height: 100%;
+}
+.infor{
+    width: 100%;
+    height:50px;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul{
+    width: 80%;
+    display: flex;
+    gap: 20px;
+    font-size: 20px;
+    
+}
+li{
+    float: right;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.news{
+    width: 80%;
+    height: 500px;
+    /* background-color: aqua; */
+    margin:10px auto;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.box-right{
+    width: 70%;
+    height: 100%;
+    /* background-color: rgb(21, 255, 0); */
+    display: flex;
+    flex-wrap: wrap;
+}
+.right-box{
+    min-width:60%;
+    width: 40%;
+    height: 50%;
+    background-color: rgb(255, 0, 0);
+    border: 2px solid white;
+    position: relative;
+    overflow: hidden;
+}
+.right-box > img{
+    width: 100%;
+    position: absolute;
+}
+.left-box{
+    min-width: 40%;
+    width: 40%;
+    height: 50%;
+    background-color: rgb(0, 38, 255); 
+    border: 2px solid white;
+    overflow: hidden;
+    position: relative;
+}
+.right-box:hover .black{
+    transform: 1s;
+    opacity: 0.70;
+}
+.left-box > img{
+   height: 100%;
+    position: absolute;
+} 
+.left-box:hover .black{
+    transform: 1s;
+    opacity: 0.70;
+}
+.black{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.5;
+    position: absolute;
+}
+.box-left{
+    width: 29%;
+    height: 100%;
+    /* background-color: rgb(0, 255, 34); */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.box{
+    width: 100%;
+    height: 49%;
+    background-color: rgb(255, 0, 0);
+    overflow: hidden;
+}
+.content{
+    background-color: aqua;
+    width: 60%;
+    height: 50%;
+}
+.detail{
+    margin-top: 170px ;
+    position: absolute;
+    color: white;
+    padding: 0px 40px 0px 20px;
+    transition: 1s;
+    font-family: "Battambang", system-ui;
+}
+.right-box:hover .detail{
+    margin-top: 75px;
+    transition: 1s;
+    font-family: "Battambang", system-ui;
+}
+.right-box:hover .detail>h2{
+    color: red;
+}
+.box1{
+    margin-top: 10px;
+    width: 100px;
+    height: 40px;
+    background-color: aqua;
+    position: absolute;
+    clip-path: polygon(0 0, 87% 0, 100% 99%, 0% 100%);
+}
+.box1>p{
+    display: flex;
+    justify-content: center;
+    margin-top:5px;
+    font-family: "Koulen", sans-serif;
+}
+.left-box:hover .detail{
+    margin-top: 80px;
+    transition: 1s;
+    font-family: "Battambang", system-ui;
+}
+.left-box:hover .detail>h2{
+    color: red;
+    font-size: 20px;
+}
+
+
+/* teble1 */
+.tetle1{
+    width: 80%;
+    height: 50px;
+    /* background-color: blue; */
+    margin: auto;
+}
+.tetle1 .ads{
+    width: 100px;
+    height: 47px;
+    margin: 0;
+    padding: 0;
+    clip-path: polygon(0 0, 76% 0, 100% 100%, 0% 100%);
+    background-color: red;
+
+}
+.tetle1 .ads >h3{
+    display: flex;
+    align-items: center;
+    padding: 10px 10px 10px 20px;
+    color: white;
+}
+.tetle1 .ads>hr{
+    margin-top: 20px;
+}
+.thumbnail-table{
+    width: 80%;
+    height: 700px;
+    /* background-color: aqua; */
+    margin:auto;
+    box-shadow: 5px 5px 6px black;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+.thumbnail-top{
+    width: 100%;
+    height: 40%;
+    /* background-color:blue ; */
+    display: flex;
+}
+.thumbnail{
+    width: 95%;
+    height: 95%;
+    /* background-color: gray; */
+    margin:14px auto;
+    display: flex;
+    justify-content: space-between;
+}
+.thumbnail-top1{
+    width: 33.3%;
+    height: 100%;
+    /* background-color: chartreuse; */
+}
+.thumbnail-top2{
+    width: 33.3%;
+    height: 100%;
+    /* background-color: rgb(71, 85, 58); */
+}
+.thumbnail-top3{
+    width: 33.3%;
+    height: 100%;
+    /* background-color: rgb(255, 0, 0); */
+}
+.image{
+    width: 100%;
+    height: 75%;
+    background-color: gray;
+    
+}
+.image>img{
+    width: 100%;
+    height: 100%;
+}
+.image:hover>img{
+    transform: scale(0.98);
+}
+.das1 >p{
+    display: flex;
+    justify-content: center;
+    margin-top:5px;
+    color: rgb(34, 34, 34);
+}
+.thumbnail-btn{
+    width: 100%;
+    height: 60%;
+    /* background-color:rgb(255, 234, 0) ; */
+}
+.right-thumbnail{
+    width: 70%;
+    height: 100%;
+    /* background-color: blue; */
+}
+.box-top{
+    width: 100%;
+    height: 50%;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+}
+.box-top1{
+    width: 22%;
+    height: 100%;
+    /* background-color: rgb(255, 0, 0); */
+    /* overflow: hidden; */
+}
+.box-top1 > .image{
+    width: 100%;
+    height: 50%;
+    background-color: gray;
+}
+.thumbnail-btn > .thumbnail{
+    height: 100%;
+}
+.thumbnail-btn > .thumbnail > p{
+    font-family: "Battambang", system-ui;
+}
+
+
+/* teble2 */
+.thumbnail-table1{
+    width: 80%;
+    height: 400px;
+    margin:auto;
+    /* background-color: aqua; */
+    box-shadow: 5px 5px 6px black;
+    /* overflow: hidden; */
+    display: flex;
+    margin-bottom: 30px;
+}
+.thnumbnail-center1{
+    width: 93%;
+    height: 90%;
+    /* background-color: rgb(0, 255, 51); */
+    margin:auto;
+    display: flex;
+    justify-content: space-between;
+}
+.thnumbnail-center1-1{
+    width: 35%;
+    height: 100%;
+    /* background-color: blue; */
+    
+}
+
+.image2{
+    width: 100%;
+    height: 60%;
+    background-color: gray;
+}
+.image2>img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.image2:hover>img{
+    transform: scale(0.98);
+}
+.image2-1:hover>img{
+    transform: scale(0.98);
+}
+.das2{
+    width: 100%;
+    height: 40%;
+    padding: 10px 20px ;
+}
+.thnumbnail-center1-2{
+    width: 63%;
+    height: 100%;
+    /* background-color: red; */
+}
+.thnumbnail1-center1-2{
+    width: 100%;
+    height: 50%;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: space-between;
+}
+.thnumbnail1-center1-1{
+    width: 24%;
+    height: 95%;
+    /* background-color: rgb(244, 244, 244); */
+    overflow: hidden;
+}
+.content2{
+    width: 100%;
+    height: 50%;
+    /* background-color: aqua; */
+}
+.image2-1{
+    width: 100%;
+    height: 60%;
+    background-color: grey;
+}
+.image2-1>img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.das2-1{
+    width: 100%;
+    height: 40%;
+    padding: 10px 20px ;
+}
+
+
+
+/* footer */
+.tfoot{
+    margin-top: 80px;
+    width: 100%;
+    height: 300px;
+    background-color: rgb(0, 0, 0);
+    position: ;
+}
+.foot{
+    width: 80%;
+    height: 100%;
+    /* background-color: aqua; */
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.foot1{
+    width: 33%;
+    height: 100%;
+    color: gray;
+    /* background-color: rgb(0, 60, 255); */
+}
+.foot1 > img{
+    margin-top: 30px;
+}
+.foot1>h3{
+    margin-top: 30px;
+}
+.foot1>.image1>i{
+    font-size: 25px;
+}
+.img-foot >img{
+    width: 30px;
+}
+p , span , h4{
+    font-family: "Montserrat", sans-serif;
+}
+
+
+
+/* -------------teble--------------- */
+.tetle2{
+    width: 80%;
+    height: 50px;
+    /* background-color: blue; */
+    margin: auto;
+}
+.tetle2 .ads{
+    width: 150px;
+    height: 47px;
+    margin: 0;
+    padding: 0;
+    clip-path: polygon(0 0, 87% 0, 100% 99%, 0% 100%);
+    background-color: red;
+
+}
+.tetle2 .ads >h3{
+    display: flex;
+    align-items: center;
+    padding: 10px 10px 10px 20px;
+    color: white;
+}
+.tetle2 .ads>hr{
+    margin-top: 20px;
+}
+
+.tetle3{
+    width: 80%;
+    height: 50px;
+    /* background-color: blue; */
+    margin: auto;
+}
+.tetle3 .ads{
+    width: 150px;
+    height: 47px;
+    margin: 0;
+    padding: 0;
+    clip-path: polygon(0 0, 87% 0, 100% 99%, 0% 100%);
+    background-color: red;
+
+}
+.tetle3 .ads >h3{
+    display: flex;
+    align-items: center;
+    padding: 10px 10px 10px 20px;
+    color: white;
+}
+.tetle3 .ads>hr{
+    margin-top: 20px;
+}
+
+.tetle4{
+    width: 80%;
+    height: 50px;
+    /* background-color: blue; */
+    margin: auto;
+}
+.tetle4 .ads{
+    width: 150px;
+    height: 47px;
+    margin: 0;
+    padding: 0;
+    clip-path: polygon(0 0, 87% 0, 100% 99%, 0% 100%);
+    background-color: red;
+
+}
+.tetle4 .ads >h3{
+    display: flex;
+    align-items: center;
+    padding: 10px 10px 10px 20px;
+    color: white;
+}
+.tetle4 .ads>hr{
+    margin-top: 20px;
+}
+
+
+.tetle5{
+    width: 80%;
+    height: 50px;
+    /* background-color: blue; */
+    margin: auto;
+}
+.tetle5 .ads{
+    width: 150px;
+    height: 47px;
+    margin: 0;
+    padding: 0;
+    clip-path: polygon(0 0, 87% 0, 100% 99%, 0% 100%);
+    background-color: red;
+
+}
+.tetle5 .ads >h3{
+    display: flex;
+    align-items: center;
+    padding: 10px 10px 10px 20px;
+    color: white;
+}
+.tetle5 .ads>hr{
+    margin-top: 20px;
+}
+/* -------------------- */
+

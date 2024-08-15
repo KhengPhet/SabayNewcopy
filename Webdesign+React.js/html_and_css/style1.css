@@ -1,0 +1,91 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.row{
+    width: 80%;
+    height: 800px;
+    /* background-color: aqua; */
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.box1{
+    width: 23%;
+    height: 100%;
+    /* background-color: aqua; */
+}
+
+.top1{
+    width: 100%;
+    height: 100%;
+    background-color: blue;
+    background-image: url('https://zandokh.com/image/cache/catalog/products/2024-07/2222405703/New/XING.VX-4-cr-450x672.jpg');
+    background-size: cover;
+    /* box-shadow: 6px 6px 7px black; */
+}
+.button{
+    width: 100%;
+    height: 20%;
+    /* background-color: aqua; */
+    margin-top: 10px;
+}
+h3{
+    color: rgb(255, 0, 0);
+    font-size: 30px;
+}
+p{
+    font-size: 30px;
+}
+span{
+    font-size: 30px;
+}
+.box2{
+    width: 23%;
+    height: 100%;
+    /* background-color: blue;
+    background-image: url('https://zandokh.com/image/cache/catalog/products/2024-07/2222406706/New/452512292_801147162188587_1869638436866380110_n-cr-450x672.jpg');
+    background-size: cover;
+    box-shadow: 6px 6px 7px black; */
+}
+.top2{
+    width: 100%;
+    height: 100%;
+    background-color: blue;
+    background-image: url('https://zandokh.com/image/cache/catalog/products/2024-07/2222406706/New/452512292_801147162188587_1869638436866380110_n-cr-450x672.jpg');
+    background-size: cover;
+    /* box-shadow: 6px 6px 7px black; */
+}
+.box3{
+    width: 23%;
+    height: 100%;
+    /* background-color: blue;
+    background-image: url('https://zandokh.com/image/cache/catalog/products/2024-07/2222405703/New/XING.VX-4-cr-450x672.jpg');
+    background-size: cover; */
+    /* box-shadow: 6px 6px 7px black; */
+}
+.top3{
+    width: 100%;
+    height: 100%;
+    background-color: blue;
+    background-image: url('https://zandokh.com/image/cache/catalog/products/2024-07/2222405703/New/XING.VX-4-cr-450x672.jpg');
+    background-size: cover;
+    /* box-shadow: 6px 6px 7px black; */
+}
+.box4{
+    width: 23%;
+    height: 100%;
+    /* background-color: blue;
+    background-image: url('https://zandokh.com/image/cache/catalog/products/2024-04/5142303009/Sneakers (1)-cr-450x672.jpg');
+    background-size: cover; */
+    /* box-shadow: 6px 6px 7px black; */
+}
+.top4{
+    width: 100%;
+    height: 100%;
+    background-color: blue;
+    background-image: url('https://zandokh.com/image/cache/catalog/products/2024-04/5142303009/Sneakers (1)-cr-450x672.jpg');
+    background-size: cover;
+    /* box-shadow: 6px 6px 7px black; */
+}
